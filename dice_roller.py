@@ -8,7 +8,7 @@ def main():
     roll = random.randint(1,dice_size)
     if roll ==1:
       print(f'you rolled a {roll}!Critical Fail')
-    elif roll == dice_size3:
+    elif roll == dice_size:
       print(f'you rolled a {roll}!Critical Success')
     else:
       print(f'You rolled a {roll}')
